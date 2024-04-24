@@ -18,7 +18,7 @@ footer {
 
 nav a {
   font-size: 18px;
-
+  color: white;
   font-weight: 400;
   text-decoration: none;
 }
@@ -29,4 +29,41 @@ nav a:hover {
 
 .profile header {
   text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 18px;
+  margin: 24px 18px;
+}
+
+.jumbotron {
+  font-size: 24px;
+  padding: 60px;
+  background-color: #00c9eb;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 24px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 6px;
 }
